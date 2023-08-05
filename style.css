@@ -44,7 +44,7 @@
 
 .home {
   height: 100vh;
-  background: linear-gradient(-60deg, #031540 74%, #fff);
+  background: linear-gradient(-45deg, #031540 60%, #00abf0, #fff 95%);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -55,10 +55,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 390px;
-  height: 400px;
+  width: 368px;
+  height: 383px;
   background: linear-gradient(#031540, #00abf0);
-  border: 25px ridge #fff;
+  border: 15px ridge #fff;
   /* outline: 25px solid #031540; */
 }
 
