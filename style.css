@@ -21,6 +21,7 @@
 }
 
 .logo {
+  font-family: "Hannari";
   font-size: 25px;
   color: #031540;
   text-decoration: none;
@@ -63,7 +64,7 @@
 
 .home-image img {
   position: relative;
-  bottom: 40px;
+  bottom: 38px;
   max-width: 340px;
 }
 
