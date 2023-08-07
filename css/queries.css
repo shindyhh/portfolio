@@ -1,0 +1,21 @@
+/* 65*16 = 1030px */
+@media (max-width: 65em) {
+  .home {
+    height: 100%;
+    display: grid;
+    padding: 150px 25px 0 25px;
+  }
+
+  .header {
+    position: absolute;
+  }
+
+  .home-content {
+    padding-top: 25px;
+  }
+
+  .navbar a {
+    display: none;
+  }
+
+}
