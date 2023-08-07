@@ -4,6 +4,7 @@
     height: 100%;
     display: grid;
     padding: 150px 25px 0 25px;
+    justify-items: center;
   }
 
   .header {
@@ -18,4 +19,16 @@
     display: none;
   }
 
+  .home-image {
+    width: 325px;
+    height: 325px;
+  }
+
+  .home-image img {
+    max-width: 298px;
+  }
+
+  .home-content {
+    text-align: center;
+  }
 }
