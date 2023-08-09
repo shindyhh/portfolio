@@ -7,8 +7,13 @@
   font-family: 'Edu SA Beginner', cursive;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+
 .header {
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
@@ -78,8 +83,9 @@
   line-height: 1.2;
 }
 
-.sh {
-  color: #03a9f4;
+.light-blue {
+  /* color: #03a9f4; */
+  color: #00abf0;
 }
 
 .home-content h3 {
@@ -230,4 +236,112 @@ div .dot {
   100% {
     transform: scale(1.3) translateY(-100px) rotate(360deg);
   }
+}
+
+
+.portfolio {
+  height: 100vh;
+  background-color: #ededed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10%;
+}
+
+.portfolio {
+  background: rgb(0,212,255);
+
+  /* gradient background*/
+  background: linear-gradient(45deg, rgba(0,212,255,1) 0%, rgba(11,3,45,1) 100%);
+
+  background-image: url(../img/silver-waves.avif);
+
+  background-size: cover;
+  background-position: center;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container {
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  background-color: rgba(17, 25, 40, 0.25);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+  padding: 38px;
+  filter: drop-shadow(0 30px 10px rgba(0,0,0,0.125));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:center;
+  text-align: center;
+
+}
+
+.wrapper-portfolio {
+  width: 100%;
+  height: 100%;
+
+}
+
+.banner-image {
+  background-image: url(https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  width: 100%;
+  border-radius: 12px;
+  border: 1px solid rgba(255,255,255, 0.255)
+}
+
+.button-wrapper{
+  margin-top: 18px;
+}
+
+.btn {
+  border: none;
+  padding: 12px 24px;
+  border-radius: 24px;
+  font-size: 12px;
+  font-size: 0.8rem;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+
+.btn + .btn {
+  margin-left: 10px;
+}
+
+.outline {
+  background: transparent;
+  color: rgba(255, 255, 255, 0.9);
+  border: 1px solid rgba(196, 196, 196, 0.6);
+  transition: all .3s ease;
+  font-size: 15px;
+}
+
+.outline:hover{
+  transform: scale(1.125);
+  color: rgba(255, 255, 255, 0.9);
+  border-color: rgba(255, 255, 255, 0.9);
+  transition: all .3s ease;
+}
+
+.fill {
+  background: rgba(229, 246, 250, 0.9);
+  color: rgba(31, 31, 31, 0.95);
+  filter: drop-shadow(0);
+  font-weight: bold;
+  font-size: 15px;
+  transition: all .3s ease;
+}
+
+.fill:hover{
+  transform: scale(1.125);
+  border-color: rgba(255, 255, 255, 0.9);
+  filter: drop-shadow(0 10px 5px rgba(0,0,0,0.125));
+  transition: all .3s ease;
 }
