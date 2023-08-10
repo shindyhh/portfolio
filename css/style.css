@@ -27,14 +27,14 @@ html {
 
 .logo {
   font-family: "Hannari";
-  font-size: 25px;
-  color: #031540;
+  font-size: 30px;
+  color: #424242;
   text-decoration: none;
   font-weight: 700;
 }
 
 .navbar a {
-  font-size: 18px;
+  font-size: 22px;
   color: #fff;
   text-decoration: none;
   font-weight: 500;
@@ -44,12 +44,12 @@ html {
 
 .navbar a:hover,
 .navbar a.active {
-  color: #00abf0;
+  color: #cb272e;
 }
 
 .home {
   height: 100vh;
-  background: linear-gradient(-45deg, #031540 55%, #00abf0, #fff 95%);
+  background: linear-gradient(-45deg, #363636 55%, #8f9090, #fff 95%);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -62,7 +62,7 @@ html {
   align-items: center;
   width: 368px;
   height: 383px;
-  background: linear-gradient(#031540, #00abf0);
+  background: linear-gradient(#3f3f3f, #c1c1c1);
   border: 15px ridge #fff;
 }
 
@@ -83,9 +83,8 @@ html {
   line-height: 1.2;
 }
 
-.light-blue {
-  /* color: #03a9f4; */
-  color: #00abf0;
+.red {
+  color: #cb272e;
 }
 
 .home-content h3 {
@@ -111,17 +110,17 @@ html {
   border: 2px solid #fff;
   border-radius: 50%;
   font-size: 25px;
-  color: #00abf0;
+  color: #cb272e;
   text-decoration: none;
   margin-left: 12px;
   transition: .5s;
 }
 
 .home-sci a:hover {
-  background: #00abf0;
+  background: #cb272e;
   color: #fff;
-  border-color: #00abf0;
-  box-shadow: 0 0 10px #00abf0;
+  border-color: #cb272e;
+  box-shadow: 0 0 10px #cb272e;
 }
 
 
