@@ -32,3 +32,23 @@
     text-align: center;
   }
 }
+
+/* 38*16 = 600px */
+@media (max-width: 38em) {
+  .portfolio {
+    height: 100%;
+    display: grid;
+  }
+
+  .container {
+    margin: 30px;
+  }
+}
+
+
+/* 39*16 = 624px */
+@media (max-height: 39em) {
+  .home {
+    padding: 30% 10%;
+  }
+}
