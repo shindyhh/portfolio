@@ -52,8 +52,8 @@
           consectetur adipiscing elit.</p>
       </div>
       <div class="button-wrapper">
-        <button class="btn outline">github</button>
-        <button class="btn fill">preview</button>
+        <button class="btn outline">code <i class='bx bxl-github'></i></button>
+        <button class="btn fill" onclick="openPopup()">demo</button>
       </div>
     </div>
     <div class="container">
@@ -64,10 +64,16 @@
           consectetur adipiscing elit.</p>
       </div>
       <div class="button-wrapper">
-        <button class="btn outline">github</button>
-        <button class="btn fill">preview</button>
+        <button class="btn outline">code <i class='bx bxl-github'></i></button>
+        <button type="submit" class="btn fill">live demo</button>
       </div>
     </div>
   </section>
+  <div class="popup" id="popup">
+    <h2>test</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <button type="button" onclick="closePopup()">ok</button>
+  </div>
+  <script src="script.js"></script>
 </body>
 </html>
