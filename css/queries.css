@@ -1,10 +1,11 @@
-/* 65*16 = 1030px */
+/* 65*16 = 1040px */
 @media (max-width: 65em) {
   .home {
     height: 100%;
     display: grid;
     padding: 150px 25px 0 25px;
     justify-items: center;
+    justify-content: center;
   }
 
   .header {
