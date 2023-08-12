@@ -45,11 +45,3 @@
     margin: 30px;
   }
 }
-
-
-/* 39*16 = 624px */
-@media (max-height: 39em) {
-  .home {
-    padding: 30% 10%;
-  }
-}
