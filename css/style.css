@@ -171,8 +171,6 @@ html {
   border: none;
   padding: 12px 24px;
   border-radius: 24px;
-  font-size: 12px;
-  font-size: 0.8rem;
   letter-spacing: 2px;
   cursor: pointer;
 }
@@ -186,27 +184,35 @@ html {
   color: rgba(255, 255, 255, 0.9);
   border: 1px solid rgba(196, 196, 196, 0.6);
   transition: all .3s ease;
-  font-size: 15px;
+  font-size: 20px;
+}
+
+.bxl-github {
+  font-size: 22px;
 }
 
 .outline:hover{
   transform: scale(1.125);
-  color: rgba(255, 255, 255, 0.9);
+  background-color: rgba(255, 255, 255, 0.9);
+  color: rgba(0, 0, 0, 0.9);
   border-color: rgba(255, 255, 255, 0.9);
   transition: all .3s ease;
 }
 
 .fill {
-  background: rgba(250, 229, 229, 0.9);
+  background: rgba(253, 249, 249, 0.9);
   color: rgba(31, 31, 31, 0.95);
   filter: drop-shadow(0);
   font-weight: bold;
-  font-size: 15px;
+  font-size: 20px;
   transition: all .3s ease;
 }
 
 .fill:hover{
   transform: scale(1.125);
+  background-color: #000000;
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255);
   border-color: rgba(255, 255, 255, 0.9);
   filter: drop-shadow(0 10px 5px rgba(0,0,0,0.125));
   transition: all .3s ease;
