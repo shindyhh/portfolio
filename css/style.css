@@ -216,7 +216,7 @@ html {
   z-index: 1000;
   width: 410px;
   height: 410px;
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: rgba(255, 255, 255, 0.95);
   border-radius: 6px;
   position: absolute;
   top: 50%;
@@ -258,7 +258,9 @@ html {
 .popup button:hover{
   transform: scale(1.125);
   border-color: rgba(255, 255, 255, 0.9);
+  background-color: #ff5a5a;
   transition: all .3s ease;
+  font-size: 20px;
 }
 
 .open-popup {
