@@ -13,7 +13,7 @@ html {
 
 
 .header {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
@@ -23,6 +23,17 @@ html {
   justify-content: space-between;
   align-items: center;
   z-index: 100;
+  transition: 0.8s;
+}
+
+.sticky {
+  background: #363636;
+  padding: 5px 100px;
+  border-bottom: 1px solid #fff;
+}
+
+.sticky .logo {
+  color: #fff;
 }
 
 .logo {
