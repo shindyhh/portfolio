@@ -11,6 +11,10 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 
 .header {
   position: fixed;
@@ -56,6 +60,23 @@ html {
 .navbar a:hover,
 .navbar a.active {
   color: #cb272e;
+}
+
+.btn-mobile-nav {
+  border: none;
+  background: none;
+  cursor: pointer;
+
+  display: none;
+}
+
+.btn-mobile-nav i {
+  color: #fff;
+  font-size: 3em;
+}
+
+.bx.bx-x-circle {
+  display: none;
 }
 
 .home {
