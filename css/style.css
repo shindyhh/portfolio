@@ -213,10 +213,15 @@ body {
 
 .outline {
   background: transparent;
-  color: rgba(255, 255, 255, 0.9);
+
   border: 1px solid rgba(196, 196, 196, 0.6);
   transition: all .3s ease;
   font-size: 20px;
+}
+
+.outline a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.9);
 }
 
 .bxl-github {
@@ -226,9 +231,13 @@ body {
 .outline:hover{
   transform: scale(1.125);
   background-color: rgba(255, 255, 255, 0.9);
-  color: rgba(0, 0, 0, 0.9);
+
   border-color: rgba(255, 255, 255, 0.9);
   transition: all .3s ease;
+}
+
+.outline a:hover {
+  color: rgba(0, 0, 0, 0.9);
 }
 
 .fill {
