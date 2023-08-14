@@ -40,9 +40,57 @@ window.onscroll = () => {
 
 // make mobile navbar work
 
+const mobileNavLinks = document.querySelectorAll(".navbar a");
 const btnNavEl = document.querySelector(".btn-mobile-nav");
 const headerEl = document.querySelector(".header");
 
 btnNavEl.addEventListener('click', function() {
   headerEl.classList.toggle("nav-open");
-})
+});
+
+mobileNavLinks.forEach(link => {
+  link.addEventListener('click', function(event) {
+    event.preventDefault();
+    headerEl.classList.remove("nav-open");
+  });
+});
+
+// Smooth scrolling for navigation links
+navLinks.forEach(link => {
+  link.addEventListener('click', function(event) {
+    event.preventDefault();
+    const targetId = link.getAttribute("href");
+    const targetSection = document.querySelector(targetId);
+    const targetOffset = targetSection.offsetTop;
+
+    window.scrollTo({
+      top: targetOffset - 50,
+      behavior: "smooth"
+    });
+
+    headerEl.classList.remove("nav-open");
+  });
+});
+
+// Smooth scrolling for "home" and "portfolio" links
+const homeLink = document.querySelector("#home-link");
+const portfolioLink = document.querySelector("#portfolio-link");
+
+homeLink.addEventListener('click', function(event) {
+  event.preventDefault();
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth"
+  });
+});
+
+portfolioLink.addEventListener('click', function(event) {
+  event.preventDefault();
+  const targetSection = document.querySelector("#portfolio");
+  const targetOffset = targetSection.offsetTop;
+
+  window.scrollTo({
+    top: targetOffset - 50,
+    behavior: "smooth"
+  });
+});
