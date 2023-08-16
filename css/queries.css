@@ -52,7 +52,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: all 1s ease-in;
+    transition: all 0.7s ease-in;
 
     flex-direction: column;
     gap: 4.8rem;
