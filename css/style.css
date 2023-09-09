@@ -184,6 +184,7 @@ body {
 }
 
 .wrapper-portfolio h1, p {
+  padding-top: 25px;
   color: white;
 }
 
