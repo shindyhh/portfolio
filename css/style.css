@@ -188,7 +188,7 @@ body {
   color: white;
 }
 
-.banner-esports {
+.banner-projects {
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -215,7 +215,6 @@ body {
 
 .outline {
   background: transparent;
-
   border: 1px solid rgba(196, 196, 196, 0.6);
   transition: all .3s ease;
   font-size: 20px;
@@ -233,7 +232,6 @@ body {
 .outline:hover{
   transform: scale(1.125);
   background-color: rgba(255, 255, 255, 0.9);
-
   border-color: rgba(255, 255, 255, 0.9);
   transition: all .3s ease;
 }
@@ -259,6 +257,15 @@ body {
   border-color: rgba(255, 255, 255, 0.9);
   filter: drop-shadow(0 10px 5px rgba(0,0,0,0.125));
   transition: all .3s ease;
+}
+
+.fill a {
+  text-decoration: none;
+  color: rgba(31, 31, 31, 0.95);
+}
+
+.fill a:hover {
+  color: #fff;
 }
 
 .popup {
