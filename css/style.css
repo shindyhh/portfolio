@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@400;500;600;700&family=Tektur:wght@400;500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@400;500;600;700&family=Tektur:wght@400;500&display=swap");
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Edu SA Beginner', cursive;
+  font-family: "Edu SA Beginner", cursive;
 }
 
 html {
@@ -14,7 +14,6 @@ html {
 body {
   overflow-x: hidden;
 }
-
 
 .header {
   position: fixed;
@@ -145,7 +144,7 @@ body {
   color: #cb272e;
   text-decoration: none;
   margin-left: 12px;
-  transition: .5s;
+  transition: 0.5s;
 }
 
 .home-sci a:hover {
@@ -157,7 +156,6 @@ body {
 
 .portfolio {
   background-image: url(../img/black-ferris-wheel.jpg);
-
 
   background-size: cover;
   background-position: center;
@@ -173,7 +171,7 @@ body {
   border-radius: 30px;
   border: 1px solid rgba(255, 255, 255, 0.125);
   padding: 30px;
-  filter: drop-shadow(0 30px 10px rgba(0,0,0,0.125));
+  filter: drop-shadow(0 30px 10px rgba(0, 0, 0, 0.125));
   justify-content: center;
   text-align: center;
 }
@@ -183,7 +181,8 @@ body {
   height: 100%;
 }
 
-.wrapper-portfolio h1, p {
+.wrapper-portfolio h1,
+p {
   padding-top: 25px;
   color: white;
 }
@@ -194,10 +193,10 @@ body {
   background-repeat: no-repeat;
   height: 245px;
   width: 100%;
-  border: 1px solid rgba(255,255,255, 0.255)
+  border: 1px solid rgba(255, 255, 255, 0.255);
 }
 
-.button-wrapper{
+.button-wrapper {
   margin-top: 18px;
 }
 
@@ -216,7 +215,7 @@ body {
 .outline {
   background: transparent;
   border: 1px solid rgba(196, 196, 196, 0.6);
-  transition: all .3s ease;
+  transition: all 0.3s ease;
   font-size: 20px;
 }
 
@@ -229,11 +228,11 @@ body {
   font-size: 22px;
 }
 
-.outline:hover{
+.outline:hover {
   transform: scale(1.125);
   background-color: rgba(255, 255, 255, 0.9);
   border-color: rgba(255, 255, 255, 0.9);
-  transition: all .3s ease;
+  transition: all 0.3s ease;
 }
 
 .outline a:hover {
@@ -246,17 +245,17 @@ body {
   filter: drop-shadow(0);
   font-weight: bold;
   font-size: 20px;
-  transition: all .3s ease;
+  transition: all 0.3s ease;
 }
 
-.fill:hover{
+.fill:hover {
   transform: scale(1.125);
   background-color: #000000;
   color: #fff;
   border: 1px solid rgba(255, 255, 255);
   border-color: rgba(255, 255, 255, 0.9);
-  filter: drop-shadow(0 10px 5px rgba(0,0,0,0.125));
-  transition: all .3s ease;
+  filter: drop-shadow(0 10px 5px rgba(0, 0, 0, 0.125));
+  transition: all 0.3s ease;
 }
 
 .fill a {
@@ -311,11 +310,11 @@ body {
   box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
 }
 
-.popup button:hover{
+.popup button:hover {
   transform: scale(1.125);
   border-color: rgba(255, 255, 255, 0.9);
   background-color: #ff5a5a;
-  transition: all .3s ease;
+  transition: all 0.3s ease;
   font-size: 20px;
 }
 
